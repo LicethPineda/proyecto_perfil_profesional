@@ -1,0 +1,82 @@
+body{
+    background-color:#EFFAFD;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor{
+    padding-left: 5%;
+    padding-right: 5%;
+    background: url(./imagenes/mountains-4387209_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: space-between;
+}
+
+.lista1{
+    text-align: center; 
+    padding-inline-end: 15px;
+    padding-top: 50px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: black;
+} 
+ 
+.parte1{
+    width: 45%;
+    float:left;
+}
+#foto_perfil{
+    border-radius: 15px;
+}
+
+.parte1, .parte2, .parte3, .footer{
+    text-align: center;
+    background-color:#ffffff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 10px rgba(0,0,0, 0.2);
+    cursor: default;
+    transition: all 400ms ease ;
+}
+.parte1:hover, .parte2:hover, .parte3:hover, .footer:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.4);
+    transform: translateY(-3%);
+}
+.parte2{
+    text-align: left;
+    width: 30%;
+    float:left;
+}
+
+.parte3{
+    width: 45%;
+    float:left;   
+}
+.footer{  
+    width: 100%;
+}
+.footer{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#redes_sociales{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#linkedin{
+    text-decoration: none;
+}
